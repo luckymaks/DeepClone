@@ -2,7 +2,7 @@
 
 ## Files:
 
-**main.js** - the main file where a big object is created and run deepClone funciton.
+**main.js** - the main file where a big object is created and the deepClone funciton is run.
 
 **createBigObject.js** - generats an object with nested objects based on `maxDepth` param.
 
