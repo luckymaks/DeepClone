@@ -4,10 +4,10 @@
 
 **main.js** - the main file where a big object is created and the deepClone funciton is run.
 
-**createBigObject.js** - generats an object with nested objects based on `maxDepth` param.
+**createBigObject.js** - generates an object with nested objects based on `maxDepth` param.
 
-**deepClone.js** - the alternative function of deeping clone:
-1. **deepCloneWithHeapLimit(object)** - basic/simple deepClone function. When run it, the proccess will be crushed with "heap out of memory" error.
+**deepClone.js** - the alternative function for deep clone:
+1. **deepCloneWithHeapLimit(object)** - basic/simple deep clone function. When run it, the proccess will be crushed with "heap out of memory" error.
 2. **deepClone(objct)** - the improved function that uses *new WeakMap()* that allows avoid getting an error `heap out of memory`.
 
 ## To run the `main()` function use:
